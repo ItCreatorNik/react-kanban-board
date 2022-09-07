@@ -1,0 +1,45 @@
+.field {
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+
+    margin: 15px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fieldDark {
+    border-color: orange;
+}
+
+.fieldOver {
+    border: 2px dashed blue; 
+}
+
+.fieldHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fieldTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.targetText {
+    font-size: 24px;
+    font-weight: 700;
+    color: skyblue;
+    text-align: center;
+}

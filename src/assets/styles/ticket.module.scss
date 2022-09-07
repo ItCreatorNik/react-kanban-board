@@ -1,0 +1,28 @@
+.ticket {
+    width: 95%;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px 0;
+
+    box-shadow: 2px 4px 6px 2px gray;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+.ticketDone {
+    text-decoration: line-through;
+}
+
+.ticketDark {
+    background: rgb(37, 37, 55);
+    color: #fff;
+}
+
+.ticketDragging {
+    opacity: 0;
+}
